@@ -1,0 +1,15 @@
+{
+  "name": "koodoo-tech",
+  "version": "1.0.0",
+  "description": "To find out the pattern in amount changes",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "ShrutikaYawale",
+  "license": "ISC"
+}
