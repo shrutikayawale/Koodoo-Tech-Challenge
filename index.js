@@ -31,7 +31,6 @@ const accountTypeChecker = (accountBalanceHistory) => {
     let diff;
     
     for (var i = 0; i < accountBalanceHistory.length - 1; i++) {
-      console.log(i, accountBalanceHistory[i] , accountBalanceHistory[i + 1] );
         if (!diff) {
             //for the first set of elements we will find out the sum and store in diff variable
             diff = accountBalanceHistory[i + 1].account.balance.amount - accountBalanceHistory[i].account.balance.amount;
@@ -50,7 +49,7 @@ const accountTypeChecker = (accountBalanceHistory) => {
     return result;
   };
 
-  console.log(accountTypeChecker(accountBalanceHistory));
+  console.log(accountTypeChecker(accountBalanceHistory)); // calling the function here
 
   module.exports = { accountTypeChecker };
 
