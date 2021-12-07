@@ -2,6 +2,12 @@
 This project to solve the Koodoo Technical challenge
 For the given problem, there are below cases which are possible
 
+Steps for installation:
+1. You need Node version installed
+2. Clone the project
+3. run 'node index.js' file to run the function with the given input set
+4. run the command 'npm run test' to run the test cases
+
 Case 1 - Type A denotes a balance history where the balance amount decreases by varying amounts each month.
 const accountBalanceHistory = [
     {
