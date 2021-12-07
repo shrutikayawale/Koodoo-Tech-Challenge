@@ -76,3 +76,5 @@ const accountBalanceHistory = [
 In unit testing, I will pass the data for all 4 cases possible so that I can get good coverage and can cover all the cases.
 
 # npm run test - to run the test in local 
+![image](https://user-images.githubusercontent.com/42666782/145032574-89338ad8-1582-4a4a-a8f5-3ab997645a48.png)
+
